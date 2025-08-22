@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn to Plot Points</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Learn to Plot Points</h1>
+        <div class="game-area">
+            <div class="instructions">
+                <h2>Plot the point: <span id="target-point">(0, 0)</span></h2>
+                <p>Drag the red point to the correct position on the coordinate plane</p>
+            </div>
+            <div class="canvas-container">
+                <canvas id="coordinate-plane"></canvas>
+            </div>
+            <div class="controls">
+                <button id="check-btn">Check Answer</button>
+                <button id="new-problem-btn" style="display: none;">New Problem</button>
+            </div>
+            <div id="feedback" class="feedback"></div>
+            <div class="score">
+                <p>Score: <span id="score">0</span></p>
+                <p>Attempts: <span id="attempts">0</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
